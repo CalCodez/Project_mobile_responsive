@@ -1,0 +1,11 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+	.card-section {
+		outline: 1px solid yellow;
+		flex-direction: column;
+	}
+
+	.card-container {
+		flex-direction: row;
+		width: 100%;
+	}
+}
