@@ -1,0 +1,53 @@
+:root {
+	--black: #0000;
+	--white: #ffff;
+	--project-color-yellow: #fffb97;
+	--project-color-orange: #fe7f42;
+	--project-color-red: #b32c1a;
+	--project-color-brown: #7a4b47;
+	--project-color-black: #2a1617;
+}
+
+html {
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: var(--project-color-brown);
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	margin: 0;
+	height: fit-content;
+	width: 80vw;
+}
+
+.container {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	box-sizing: content-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a,
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+a:hover {
+	transform: scale(1.09);
+}
