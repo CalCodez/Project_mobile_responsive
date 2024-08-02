@@ -1,11 +1,54 @@
 @media (max-width: 1023px) and (min-width: 768px) {
 	.card-section {
-		outline: 1px solid yellow;
 		flex-direction: column;
+		justify-content: space-evenly;
+		margin-bottom: 25px;
 	}
 
 	.card-container {
 		flex-direction: row;
 		width: 100%;
+		justify-content: center;
+		column-gap: 50px;
+		height: 250px;
+	}
+
+	.image-container {
+		width: 25%;
+		height: 70%;
+	}
+
+	.card-text-container {
+		width: 60%;
+		height: 80%;
+		justify-content: flex-start;
+	}
+
+	.card-text-container .card-descriptive-text {
+		font-size: 1.4rem;
+		font-weight: 200;
+	}
+
+	.team-section {
+		height: auto;
+		width: 500px;
+		height: fit-content;
+	}
+
+	.team-pic-cards-container {
+		height: auto;
+		row-gap: 50px;
+		column-gap: 80px;
+	}
+
+	.team-card-contianer {
+		width: 180px;
+		height: 220px;
+		text-align: center;
+		align-items: center;
+	}
+
+	.team-social-container {
+		justify-content: center;
 	}
 }
