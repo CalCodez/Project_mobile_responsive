@@ -12,7 +12,7 @@
 	width: 300px;
 	font-size: 1.6rem;
 	column-gap: 10px;
-	color: var(--project-color-black);
+	color: var(--project-color-orange);
 }
 
 .logo-container img {
@@ -29,7 +29,7 @@
 }
 
 .nav-links-container a {
-	color: var(--project-color-black);
+	color: var(--project-color-orange);
 }
 
 .header-container {
@@ -144,4 +144,69 @@
 
 .team-social-container .icon-yellow {
 	color: var(--project-color-yellow);
+}
+
+footer {
+	width: 100%;
+	height: fit-content;
+	flex-direction: column;
+	background-color: var(--project-color-yellow);
+	align-items: flex-start;
+	margin-top: 80px;
+}
+
+.footer-social-container {
+	width: 100%;
+	margin: 20px 0;
+	column-gap: 10px;
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: var(--project-color-red);
+	width: 100%;
+}
+
+.footer-social-container i {
+	font-size: 1.3rem;
+	margin-left: 40px;
+}
+
+.footer-social-container .fa-instagram {
+	color: var(--project-color-brown);
+}
+
+.footer-company-info-container {
+	width: 100%;
+	height: auto;
+	justify-content: space-evenly;
+	margin: 50px 0;
+}
+
+.footer-company-info-container .content {
+	width: 200px;
+	height: 100px;
+	color: var(--project-color-red);
+	font-weight: 600;
+	justify-content: flex-start;
+	text-align: center;
+	flex-direction: column;
+}
+
+.address-container address,
+.email-container .email-font-light,
+.phone-container p {
+	font-weight: 200;
+	margin-top: 10px;
+}
+
+hr {
+	border: 0.1px solid var(--project-color-red);
+	width: 90%;
+	margin-bottom: 10px;
+}
+
+.copyright-container {
+	color: var(--project-color-red);
+	font-weight: 200;
+	text-align: center;
+	margin-bottom: 30px;
 }
