@@ -20,7 +20,7 @@ html {
 		var(--project-color-red),
 		var(--project-color-orange)
 	);
-	padding: 10px;
+	width: 100%;
 }
 
 body {
