@@ -20,6 +20,7 @@ html {
 		var(--project-color-red),
 		var(--project-color-orange)
 	);
+	padding: 10px;
 }
 
 body {
@@ -28,8 +29,8 @@ body {
 	box-sizing: border-box;
 	justify-content: center;
 	align-items: center;
-	padding: 8px;
 	margin: 0;
+	width: 100%;
 	height: fit-content;
 	background-color: var(--project-color-brown);
 	position: reltaive;
