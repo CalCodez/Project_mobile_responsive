@@ -181,12 +181,17 @@ footer {
 	width: 100%;
 }
 
+.footer-social-container .content {
+	column-gap: 8px;
+	font-size: 1.08rem;
+}
+
 .footer-social-container i {
-	font-size: 1.3rem;
+	font-size: 1.8rem;
 	margin-left: 40px;
 }
 
-.footer-social-container .fa-instagram {
+.footer-social-container .social-instagram {
 	color: var(--project-color-brown);
 }
 

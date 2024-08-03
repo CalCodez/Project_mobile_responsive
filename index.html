@@ -158,10 +158,12 @@
 
     <footer class="container">
       <div class=" content footer-social-container">
-        <i class="fa-brands fa-facebook"> </i>FACEBOOK
-        <i class="fa-brands fa-threads"> </i>THREADS
-        <i class="fa-brands fa-instagram"> </i>INSTAGRAM
-        <i class="fa-brands fa-snapchat"> </i>SNAPCHAT
+        <div class="content"><i class="fa-brands fa-facebook"> </i>FACEBOOK</div>
+        <div class="content"><i class="fa-brands fa-threads"> </i>THREADS</div>
+        <div class="content social-instagram"><i class="fa-brands fa-instagram"> </i>INSTAGRAM</div>
+        <div class="content"><i class="fa-brands fa-snapchat"> </i>SNAPCHAT</div>
+
+
       </div>
 
       <div class="container footer-company-info-container ">
@@ -196,20 +198,20 @@
       </div>
 
     </footer>
-<script>
-  function mobileMenu() {
-    if (
-      document.getElementById("mobile-menu").style.display == "flex"
-    ) {
-      document.getElementById("mobile-menu").style.display = "none";
-    } else {
-      document.getElementById("mobile-menu").style.display = "flex";
-    }
-  }
-  document
-    .getElementById("menu-toggler")
-    .addEventListener("click", mobileMenu);
-</script>
+    <script>
+      function mobileMenu() {
+        if (
+          document.getElementById("mobile-menu").style.display == "flex"
+        ) {
+          document.getElementById("mobile-menu").style.display = "none";
+        } else {
+          document.getElementById("mobile-menu").style.display = "flex";
+        }
+      }
+      document
+        .getElementById("menu-toggler")
+        .addEventListener("click", mobileMenu);
+    </script>
   </body>
 
 </html>

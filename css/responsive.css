@@ -129,7 +129,7 @@
 	}
 
 	.team-card-contianer {
-		width: 300px;
+		width: 280px;
 		height: 350px;
 		text-align: center;
 		align-items: center;
@@ -137,14 +137,19 @@
 
 	.team-social-container {
 		justify-content: center;
+		font-size: large;
 	}
 
 	.footer-social-container {
 		flex-direction: column;
+		row-gap: 20px;
 	}
 
-	.footer-social-container {
-		width: 100%;
+	.footer-social-container .content {
+		width: 200px;
+		row-gap: 10px;
+		font-size: 1.5rem;
+		justify-content: flex-start;
 	}
 
 	.footer-company-info-container {
