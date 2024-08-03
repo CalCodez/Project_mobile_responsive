@@ -32,8 +32,7 @@ body {
 	margin: 0;
 	height: fit-content;
 	background-color: var(--project-color-brown);
-
-	/*width: 80vw;*/
+	position: reltaive;
 }
 
 .container {
@@ -58,4 +57,34 @@ li {
 
 a:hover {
 	transform: scale(1.09);
+}
+
+#menu-toggler {
+	color: var(--project-color-orange);
+	font-size: 1.2rem;
+	position: absolute;
+	top: 0;
+	right: 300px;
+	z-index: 2;
+	display: none;
+}
+
+#mobile-menu {
+	display: none;
+	flex-direction: column;
+	width: fit-content;
+	height: fit-content;
+	background: var(--project-color-brown);
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	right: 295px;
+	z-index: 1;
+}
+
+#mobile-menu a {
+	color: var(--project-color-orange);
+	font-size: 1.2rem;
 }

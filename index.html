@@ -14,6 +14,19 @@
   </head>
 
   <body>
+    <i class="fa-solid fa-bars" id="menu-toggler"></i>
+
+    <div class="content" id="mobile-menu">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+      <a href="#"><i class="fa-solid fa-person-running"></i>Exit</a>
+
+
+
+    </div>
+
+
     <div class="container logo-nav-container">
 
       <div class="content logo-container">
@@ -183,7 +196,20 @@
       </div>
 
     </footer>
-
+<script>
+  function mobileMenu() {
+    if (
+      document.getElementById("mobile-menu").style.display == "flex"
+    ) {
+      document.getElementById("mobile-menu").style.display = "none";
+    } else {
+      document.getElementById("mobile-menu").style.display = "flex";
+    }
+  }
+  document
+    .getElementById("menu-toggler")
+    .addEventListener("click", mobileMenu);
+</script>
   </body>
 
 </html>
