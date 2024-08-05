@@ -1,11 +1,10 @@
 :root {
 	--black: #0000;
 	--white: #ffff;
-	--project-color-yellow: #fffb97;
-	--project-color-orange: #fe7f42;
 	--project-color-red: #b32c1a;
-	--project-color-brown: #3f2826;
-	--project-color-black: #2a1617;
+	--project-font-color: #aaaaaa;
+	--project-font-dark: #4e4d4d;
+	--project-bg: #fefefa;
 }
 
 html {
@@ -13,13 +12,8 @@ html {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	display: flex;
 	justify-content: center;
-	background: linear-gradient(
-		to bottom,
-		var(--project-color-yellow),
-		var(--project-color-black),
-		var(--project-color-red),
-		var(--project-color-orange)
-	);
+	background-color: var(--project-bg);
+
 	width: 100%;
 }
 
@@ -32,8 +26,8 @@ body {
 	margin: 0;
 	width: 100%;
 	height: fit-content;
-	background-color: var(--project-color-brown);
 	position: reltaive;
+	background-color: var(--project-bg);
 }
 
 .container {
@@ -61,7 +55,7 @@ a:hover {
 }
 
 #menu-toggler {
-	color: var(--project-color-orange);
+	color: var(--project-font-dark);
 	font-size: 1.2rem;
 	position: absolute;
 	top: 0;
@@ -75,7 +69,7 @@ a:hover {
 	flex-direction: column;
 	width: fit-content;
 	height: fit-content;
-	background: var(--project-color-brown);
+	background: var(--project-font-color);
 	justify-content: flex-start;
 	align-items: flex-start;
 	padding: 20px;
@@ -86,6 +80,6 @@ a:hover {
 }
 
 #mobile-menu a {
-	color: var(--project-color-orange);
+	color: var(--project-font-dark);
 	font-size: 1.2rem;
 }
